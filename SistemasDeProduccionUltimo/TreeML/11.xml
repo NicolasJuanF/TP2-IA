@@ -1,0 +1,121 @@
+<tree id="11" edgedefault="directed">
+<node Id="0" Action="null" Cost="0.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 11, Y = 6, Piso = 3.
+Ultima posicion visitada: 12, 6
+Energia consumida: 190.
+"/>
+<node Id="1" Action="AvanzarOeste" Cost="4.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 11, Y = 6, Piso = 3.
+Ultima posicion visitada: 12, 6
+Energia consumida: 190.
+"/>
+<node Id="2" Action="AvanzarOeste" Cost="12.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 9, Y = 6, Piso = 3.
+Ultima posicion visitada: 11, 6
+Energia consumida: 210.
+"/>
+<node Id="3" Action="AvanzarNorte" Cost="18.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 9, Y = 7, Piso = 3.
+Ultima posicion visitada: 9, 6
+Energia consumida: 220.
+"/>
+<node Id="4" Action="AvanzarOeste" Cost="22.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 8, Y = 6, Piso = 3.
+Ultima posicion visitada: 9, 6
+Energia consumida: 220.
+"/>
+<node Id="5" Action="AvanzarSur" Cost="38.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 8, Y = 3, Piso = 3.
+Ultima posicion visitada: 8, 6
+Energia consumida: 250.
+"/>
+<node Id="6" Action="AvanzarOeste" Cost="36.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 6, Y = 6, Piso = 3.
+Ultima posicion visitada: 8, 6
+Energia consumida: 240.
+"/>
+<node Id="7" Action="AvanzarSur" Cost="54.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 6, Y = 4, Piso = 3.
+Ultima posicion visitada: 6, 6
+Energia consumida: 260.
+"/>
+<node Id="8" Action="AvanzarOeste" Cost="52.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 5, Y = 6, Piso = 3.
+Ultima posicion visitada: 6, 6
+Energia consumida: 250.
+"/>
+<node Id="9" Action="AvanzarEste" Cost="70.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 7, Y = 4, Piso = 3.
+Ultima posicion visitada: 6, 4
+Energia consumida: 270.
+"/>
+<node Id="10" Action="AvanzarSur" Cost="74.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 6, Y = 3, Piso = 3.
+Ultima posicion visitada: 6, 4
+Energia consumida: 270.
+"/>
+<node Id="11" Action="SubirPiso" Cost="78.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 7, Y = 4, Piso = 4.
+Ultima posicion visitada: 7, 4
+Energia consumida: 280.
+"/>
+<node Id="12" Action="AvanzarEste" Cost="85.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 8, Y = 4, Piso = 4.
+Ultima posicion visitada: 7, 4
+Energia consumida: 290.
+"/>
+<node Id="13" Action="AvanzarNorte" Cost="89.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 8, Y = 7, Piso = 4.
+Ultima posicion visitada: 8, 4
+Energia consumida: 320.
+"/>
+<node Id="14" Action="AvanzarEste" Cost="91.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 10, Y = 7, Piso = 4.
+Ultima posicion visitada: 8, 7
+Energia consumida: 340.
+"/>
+<node Id="15" Action="AvanzarOeste" Cost="94.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 7, Y = 7, Piso = 4.
+Ultima posicion visitada: 8, 7
+Energia consumida: 330.
+"/>
+<node Id="16" Action="AvanzarNorte" Cost="94.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 10, Y = 8, Piso = 4.
+Ultima posicion visitada: 10, 7
+Energia consumida: 350.
+"/>
+<node Id="17" Action="AvanzarEste" Cost="92.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 11, Y = 7, Piso = 4.
+Ultima posicion visitada: 10, 7
+Energia consumida: 350.
+"/>
+<node Id="18" Action="AvanzarEste" Cost="92.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 12, Y = 7, Piso = 4.
+Ultima posicion visitada: 11, 7
+Energia consumida: 360.
+"/>
+<node Id="19" Action="AvanzarSur" Cost="94.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 11, Y = 6, Piso = 4.
+Ultima posicion visitada: 11, 7
+Energia consumida: 360.
+"/>
+<edge source="0" target="1"/>
+<edge source="1" target="2"/>
+<edge source="2" target="3"/>
+<edge source="2" target="4"/>
+<edge source="4" target="5"/>
+<edge source="4" target="6"/>
+<edge source="6" target="7"/>
+<edge source="6" target="8"/>
+<edge source="7" target="9"/>
+<edge source="7" target="10"/>
+<edge source="9" target="11"/>
+<edge source="11" target="12"/>
+<edge source="12" target="13"/>
+<edge source="13" target="14"/>
+<edge source="13" target="15"/>
+<edge source="14" target="16"/>
+<edge source="14" target="17"/>
+<edge source="17" target="18"/>
+<edge source="17" target="19"/>
+</tree>

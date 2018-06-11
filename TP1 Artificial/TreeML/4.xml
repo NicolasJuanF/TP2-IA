@@ -1,0 +1,13 @@
+<tree id="4" edgedefault="directed">
+<node Id="0" Action="null" Cost="0.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 21, Y = 1, Piso = 2.
+Ultima posicion visitada: 21, 0
+Energia consumida: 70.
+"/>
+<node Id="1" Action="AvanzarNorte" Cost="-1.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 21, Y = 1, Piso = 2.
+Ultima posicion visitada: 21, 0
+Energia consumida: 70.
+"/>
+<edge source="0" target="1"/>
+</tree>

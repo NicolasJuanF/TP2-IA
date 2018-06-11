@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idemia:AgentModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:idemia="utn.frsf.cidisi">
+  <Environment name="FacultadAmbiente">
+    <EnvironmentState name="EstadoFacultad">
+      <DataStructure name="posicionesBloqueadas" type="Other"/>
+      <DataStructure name="posicionActual" type="Other"/>
+      <DataStructure name="mapa" type="Other"/>
+      <DataStructure name="energiaTotal"/>
+      <DataStructure name="energiaConsumida"/>
+    </EnvironmentState>
+  </Environment>
+  <Agent name="BuscadorAgente">
+    <Strategy xsi:type="idemia:Search"/>
+    <Goal name="ObjetivoAgente" value=" posicionActual == posicionElegida"/>
+    <AgentState name="EstadoBuscador">
+      <DataStructure name="posicionActual" type="Other"/>
+      <DataStructure name="posicionElegida" type="Other"/>
+      <DataStructure name="energiaTotal"/>
+      <DataStructure name="energiaConsumida"/>
+      <DataStructure name="mapa" type="Other"/>
+      <DataStructure name="posicionesBloqueadas" type="Other"/>
+    </AgentState>
+  </Agent>
+  <Actions execute_by="//@Agent" executed_on="//@Environment" name="AvanzarNorte"/>
+  <Actions execute_by="//@Agent" executed_on="//@Environment" name="AvanzarSur"/>
+  <Actions execute_by="//@Agent" executed_on="//@Environment" name="AvanzarEste"/>
+  <Actions execute_by="//@Agent" executed_on="//@Environment" name="AvanzarOeste"/>
+  <Actions execute_by="//@Agent" executed_on="//@Environment" name="BajarPiso"/>
+  <Actions execute_by="//@Agent" executed_on="//@Environment" name="SubirPiso"/>
+  <Perceptions perceived_on="//@Environment" perceived_by="//@Agent" name="posicionesbloqueadas"/>
+</idemia:AgentModel>

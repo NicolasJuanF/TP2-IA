@@ -1,0 +1,583 @@
+<tree id="1" edgedefault="directed">
+<node Id="0" Action="null" Cost="0.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 15, Y = 12, Piso = 1.
+Ultima posicion visitada: 15, 14
+Energia consumida: 30.
+"/>
+<node Id="1" Action="AvanzarEste" Cost="44.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 16, Y = 14, Piso = 1.
+Ultima posicion visitada: 15, 14
+Energia consumida: 20.
+"/>
+<node Id="2" Action="AvanzarSur" Cost="32.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 15, Y = 12, Piso = 1.
+Ultima posicion visitada: 15, 14
+Energia consumida: 30.
+"/>
+<node Id="5" Action="AvanzarEste" Cost="96.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 18, Y = 14, Piso = 1.
+Ultima posicion visitada: 16, 14
+Energia consumida: 40.
+"/>
+<node Id="15" Action="AvanzarSur" Cost="136.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 18, Y = 11, Piso = 1.
+Ultima posicion visitada: 18, 14
+Energia consumida: 70.
+"/>
+<node Id="38" Action="AvanzarSur" Cost="160.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 18, Y = 7, Piso = 1.
+Ultima posicion visitada: 18, 11
+Energia consumida: 110.
+"/>
+<node Id="53" Action="AvanzarSur" Cost="196.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 18, Y = 4, Piso = 1.
+Ultima posicion visitada: 18, 7
+Energia consumida: 140.
+"/>
+<node Id="75" Action="AvanzarSur" Cost="240.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 18, Y = 2, Piso = 1.
+Ultima posicion visitada: 18, 4
+Energia consumida: 160.
+"/>
+<node Id="3" Action="AvanzarSur" Cost="60.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 15, Y = 11, Piso = 1.
+Ultima posicion visitada: 15, 12
+Energia consumida: 40.
+"/>
+<node Id="4" Action="AvanzarOeste" Cost="60.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 10, Y = 12, Piso = 1.
+Ultima posicion visitada: 15, 12
+Energia consumida: 80.
+"/>
+<node Id="6" Action="AvanzarSur" Cost="80.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 15, Y = 9, Piso = 1.
+Ultima posicion visitada: 15, 11
+Energia consumida: 60.
+"/>
+<node Id="7" Action="AvanzarOeste" Cost="80.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 13, Y = 11, Piso = 1.
+Ultima posicion visitada: 15, 11
+Energia consumida: 60.
+"/>
+<node Id="9" Action="AvanzarSur" Cost="92.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 15, Y = 7, Piso = 1.
+Ultima posicion visitada: 15, 9
+Energia consumida: 80.
+"/>
+<node Id="10" Action="AvanzarOeste" Cost="96.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 14, Y = 9, Piso = 1.
+Ultima posicion visitada: 15, 9
+Energia consumida: 70.
+"/>
+<node Id="12" Action="AvanzarSur" Cost="108.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 15, Y = 6, Piso = 1.
+Ultima posicion visitada: 15, 7
+Energia consumida: 90.
+"/>
+<node Id="13" Action="AvanzarOeste" Cost="96.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 13, Y = 7, Piso = 1.
+Ultima posicion visitada: 15, 7
+Energia consumida: 100.
+"/>
+<node Id="21" Action="AvanzarSur" Cost="144.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 15, Y = 1, Piso = 1.
+Ultima posicion visitada: 15, 6
+Energia consumida: 140.
+"/>
+<node Id="22" Action="AvanzarOeste" Cost="116.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 13, Y = 6, Piso = 1.
+Ultima posicion visitada: 15, 6
+Energia consumida: 110.
+"/>
+<node Id="41" Action="AvanzarOeste" Cost="176.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 14, Y = 1, Piso = 1.
+Ultima posicion visitada: 15, 1
+Energia consumida: 150.
+"/>
+<node Id="62" Action="AvanzarNorte" Cost="204.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 14, Y = 2, Piso = 1.
+Ultima posicion visitada: 14, 1
+Energia consumida: 160.
+"/>
+<node Id="63" Action="AvanzarOeste" Cost="204.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 13, Y = 1, Piso = 1.
+Ultima posicion visitada: 14, 1
+Energia consumida: 160.
+"/>
+<node Id="79" Action="SubirPiso" Cost="225.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 14, Y = 2, Piso = 2.
+Ultima posicion visitada: 14, 2
+Energia consumida: 170.
+"/>
+<node Id="80" Action="AvanzarSur" Cost="236.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 13, Y = 0, Piso = 1.
+Ultima posicion visitada: 13, 1
+Energia consumida: 170.
+"/>
+<node Id="81" Action="AvanzarOeste" Cost="228.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 12, Y = 1, Piso = 1.
+Ultima posicion visitada: 13, 1
+Energia consumida: 170.
+"/>
+<node Id="25" Action="AvanzarOeste" Cost="120.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 12, Y = 6, Piso = 1.
+Ultima posicion visitada: 13, 6
+Energia consumida: 120.
+"/>
+<node Id="16" Action="SubirPiso" Cost="99.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 13, Y = 7, Piso = 2.
+Ultima posicion visitada: 13, 7
+Energia consumida: 110.
+"/>
+<node Id="17" Action="AvanzarEste" Cost="108.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 15, Y = 7, Piso = 2.
+Ultima posicion visitada: 13, 7
+Energia consumida: 130.
+"/>
+<node Id="23" Action="AvanzarNorte" Cost="123.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 15, Y = 9, Piso = 2.
+Ultima posicion visitada: 15, 7
+Energia consumida: 150.
+"/>
+<node Id="24" Action="AvanzarSur" Cost="120.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 15, Y = 6, Piso = 2.
+Ultima posicion visitada: 15, 7
+Energia consumida: 140.
+"/>
+<node Id="28" Action="AvanzarNorte" Cost="147.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 15, Y = 12, Piso = 2.
+Ultima posicion visitada: 15, 9
+Energia consumida: 180.
+"/>
+<node Id="29" Action="AvanzarOeste" Cost="135.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 14, Y = 9, Piso = 2.
+Ultima posicion visitada: 15, 9
+Energia consumida: 160.
+"/>
+<node Id="42" Action="AvanzarNorte" Cost="174.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 15, Y = 13, Piso = 2.
+Ultima posicion visitada: 15, 12
+Energia consumida: 190.
+"/>
+<node Id="43" Action="AvanzarEste" Cost="174.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 16, Y = 12, Piso = 2.
+Ultima posicion visitada: 15, 12
+Energia consumida: 190.
+"/>
+<node Id="61" Action="AvanzarNorte" Cost="207.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 15, Y = 15, Piso = 2.
+Ultima posicion visitada: 15, 13
+Energia consumida: 210.
+"/>
+<node Id="82" Action="AvanzarNorte" Cost="243.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 15, Y = 16, Piso = 2.
+Ultima posicion visitada: 15, 15
+Energia consumida: 220.
+"/>
+<node Id="83" Action="AvanzarOeste" Cost="237.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 14, Y = 15, Piso = 2.
+Ultima posicion visitada: 15, 15
+Energia consumida: 220.
+"/>
+<node Id="26" Action="AvanzarSur" Cost="135.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 15, Y = 5, Piso = 2.
+Ultima posicion visitada: 15, 6
+Energia consumida: 150.
+"/>
+<node Id="27" Action="AvanzarOeste" Cost="123.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 12, Y = 6, Piso = 2.
+Ultima posicion visitada: 15, 6
+Energia consumida: 170.
+"/>
+<node Id="36" Action="AvanzarSur" Cost="162.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 15, Y = 1, Piso = 2.
+Ultima posicion visitada: 15, 5
+Energia consumida: 190.
+"/>
+<node Id="37" Action="AvanzarOeste" Cost="150.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 9, Y = 5, Piso = 2.
+Ultima posicion visitada: 15, 5
+Energia consumida: 210.
+"/>
+<node Id="56" Action="AvanzarEste" Cost="198.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 18, Y = 1, Piso = 2.
+Ultima posicion visitada: 15, 1
+Energia consumida: 220.
+"/>
+<node Id="57" Action="AvanzarOeste" Cost="186.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 14, Y = 1, Piso = 2.
+Ultima posicion visitada: 15, 1
+Energia consumida: 200.
+"/>
+<node Id="76" Action="AvanzarNorte" Cost="219.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 18, Y = 6, Piso = 2.
+Ultima posicion visitada: 18, 1
+Energia consumida: 270.
+"/>
+<node Id="77" Action="AvanzarEste" Cost="243.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 21, Y = 1, Piso = 2.
+Ultima posicion visitada: 18, 1
+Energia consumida: 250.
+"/>
+<node Id="66" Action="AvanzarNorte" Cost="207.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 14, Y = 2, Piso = 2.
+Ultima posicion visitada: 14, 1
+Energia consumida: 210.
+"/>
+<node Id="67" Action="AvanzarOeste" Cost="207.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 13, Y = 1, Piso = 2.
+Ultima posicion visitada: 14, 1
+Energia consumida: 210.
+"/>
+<node Id="84" Action="SubirPiso" Cost="221.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 14, Y = 2, Piso = 3.
+Ultima posicion visitada: 14, 2
+Energia consumida: 220.
+"/>
+<node Id="85" Action="AvanzarSur" Cost="231.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 13, Y = 0, Piso = 2.
+Ultima posicion visitada: 13, 1
+Energia consumida: 220.
+"/>
+<node Id="86" Action="AvanzarOeste" Cost="225.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 12, Y = 1, Piso = 2.
+Ultima posicion visitada: 13, 1
+Energia consumida: 220.
+"/>
+<node Id="46" Action="AvanzarNorte" Cost="162.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 9, Y = 6, Piso = 2.
+Ultima posicion visitada: 9, 5
+Energia consumida: 220.
+"/>
+<node Id="47" Action="AvanzarOeste" Cost="171.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 7, Y = 5, Piso = 2.
+Ultima posicion visitada: 9, 5
+Energia consumida: 230.
+"/>
+<node Id="58" Action="AvanzarNorte" Cost="192.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 7, Y = 9, Piso = 2.
+Ultima posicion visitada: 7, 5
+Energia consumida: 270.
+"/>
+<node Id="70" Action="AvanzarNorte" Cost="219.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 7, Y = 11, Piso = 2.
+Ultima posicion visitada: 7, 9
+Energia consumida: 290.
+"/>
+<node Id="71" Action="AvanzarEste" Cost="210.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 8, Y = 9, Piso = 2.
+Ultima posicion visitada: 7, 9
+Energia consumida: 280.
+"/>
+<node Id="30" Action="SubirPiso" Cost="125.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 12, Y = 6, Piso = 3.
+Ultima posicion visitada: 12, 6
+Energia consumida: 180.
+"/>
+<node Id="33" Action="AvanzarOeste" Cost="129.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 11, Y = 6, Piso = 3.
+Ultima posicion visitada: 12, 6
+Energia consumida: 190.
+"/>
+<node Id="35" Action="AvanzarOeste" Cost="137.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 9, Y = 6, Piso = 3.
+Ultima posicion visitada: 11, 6
+Energia consumida: 210.
+"/>
+<node Id="39" Action="AvanzarNorte" Cost="143.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 9, Y = 7, Piso = 3.
+Ultima posicion visitada: 9, 6
+Energia consumida: 220.
+"/>
+<node Id="40" Action="AvanzarOeste" Cost="147.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 8, Y = 6, Piso = 3.
+Ultima posicion visitada: 9, 6
+Energia consumida: 220.
+"/>
+<node Id="44" Action="AvanzarSur" Cost="163.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 8, Y = 3, Piso = 3.
+Ultima posicion visitada: 8, 6
+Energia consumida: 250.
+"/>
+<node Id="45" Action="AvanzarOeste" Cost="161.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 6, Y = 6, Piso = 3.
+Ultima posicion visitada: 8, 6
+Energia consumida: 240.
+"/>
+<node Id="54" Action="AvanzarSur" Cost="179.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 6, Y = 4, Piso = 3.
+Ultima posicion visitada: 6, 6
+Energia consumida: 260.
+"/>
+<node Id="55" Action="AvanzarOeste" Cost="177.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 5, Y = 6, Piso = 3.
+Ultima posicion visitada: 6, 6
+Energia consumida: 250.
+"/>
+<node Id="64" Action="AvanzarEste" Cost="195.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 7, Y = 4, Piso = 3.
+Ultima posicion visitada: 6, 4
+Energia consumida: 270.
+"/>
+<node Id="65" Action="AvanzarSur" Cost="199.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 6, Y = 3, Piso = 3.
+Ultima posicion visitada: 6, 4
+Energia consumida: 270.
+"/>
+<node Id="73" Action="SubirPiso" Cost="203.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 7, Y = 4, Piso = 4.
+Ultima posicion visitada: 7, 4
+Energia consumida: 280.
+"/>
+<node Id="78" Action="AvanzarEste" Cost="210.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 8, Y = 4, Piso = 4.
+Ultima posicion visitada: 7, 4
+Energia consumida: 290.
+"/>
+<node Id="90" Action="AvanzarNorte" Cost="214.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 8, Y = 7, Piso = 4.
+Ultima posicion visitada: 8, 4
+Energia consumida: 320.
+"/>
+<node Id="91" Action="AvanzarEste" Cost="216.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 10, Y = 7, Piso = 4.
+Ultima posicion visitada: 8, 7
+Energia consumida: 340.
+"/>
+<node Id="92" Action="AvanzarOeste" Cost="219.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 7, Y = 7, Piso = 4.
+Ultima posicion visitada: 8, 7
+Energia consumida: 330.
+"/>
+<node Id="93" Action="AvanzarNorte" Cost="219.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 10, Y = 8, Piso = 4.
+Ultima posicion visitada: 10, 7
+Energia consumida: 350.
+"/>
+<node Id="94" Action="AvanzarEste" Cost="217.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 11, Y = 7, Piso = 4.
+Ultima posicion visitada: 10, 7
+Energia consumida: 350.
+"/>
+<node Id="95" Action="AvanzarEste" Cost="217.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 12, Y = 7, Piso = 4.
+Ultima posicion visitada: 11, 7
+Energia consumida: 360.
+"/>
+<node Id="96" Action="AvanzarSur" Cost="219.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 11, Y = 6, Piso = 4.
+Ultima posicion visitada: 11, 7
+Energia consumida: 360.
+"/>
+<node Id="11" Action="SubirPiso" Cost="95.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 13, Y = 11, Piso = 2.
+Ultima posicion visitada: 13, 11
+Energia consumida: 70.
+"/>
+<node Id="14" Action="AvanzarOeste" Cost="107.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 12, Y = 11, Piso = 2.
+Ultima posicion visitada: 13, 11
+Energia consumida: 80.
+"/>
+<node Id="20" Action="AvanzarOeste" Cost="125.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 10, Y = 11, Piso = 2.
+Ultima posicion visitada: 12, 11
+Energia consumida: 100.
+"/>
+<node Id="31" Action="AvanzarNorte" Cost="146.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 10, Y = 12, Piso = 2.
+Ultima posicion visitada: 10, 11
+Energia consumida: 110.
+"/>
+<node Id="32" Action="AvanzarOeste" Cost="152.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 7, Y = 11, Piso = 2.
+Ultima posicion visitada: 10, 11
+Energia consumida: 130.
+"/>
+<node Id="50" Action="AvanzarNorte" Cost="188.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 7, Y = 14, Piso = 2.
+Ultima posicion visitada: 7, 11
+Energia consumida: 160.
+"/>
+<node Id="51" Action="AvanzarSur" Cost="173.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 7, Y = 9, Piso = 2.
+Ultima posicion visitada: 7, 11
+Energia consumida: 150.
+"/>
+<node Id="68" Action="AvanzarNorte" Cost="227.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 7, Y = 15, Piso = 2.
+Ultima posicion visitada: 7, 14
+Energia consumida: 170.
+"/>
+<node Id="69" Action="AvanzarEste" Cost="221.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 8, Y = 14, Piso = 2.
+Ultima posicion visitada: 7, 14
+Energia consumida: 170.
+"/>
+<node Id="59" Action="AvanzarEste" Cost="191.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 8, Y = 9, Piso = 2.
+Ultima posicion visitada: 7, 9
+Energia consumida: 160.
+"/>
+<node Id="60" Action="AvanzarSur" Cost="194.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 7, Y = 5, Piso = 2.
+Ultima posicion visitada: 7, 9
+Energia consumida: 190.
+"/>
+<node Id="72" Action="AvanzarEste" Cost="209.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 9, Y = 5, Piso = 2.
+Ultima posicion visitada: 7, 5
+Energia consumida: 210.
+"/>
+<node Id="88" Action="AvanzarNorte" Cost="221.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 9, Y = 6, Piso = 2.
+Ultima posicion visitada: 9, 5
+Energia consumida: 220.
+"/>
+<node Id="89" Action="AvanzarEste" Cost="224.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 15, Y = 5, Piso = 2.
+Ultima posicion visitada: 9, 5
+Energia consumida: 270.
+"/>
+<node Id="8" Action="AvanzarOeste" Cost="100.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 7, Y = 12, Piso = 1.
+Ultima posicion visitada: 10, 12
+Energia consumida: 110.
+"/>
+<node Id="18" Action="AvanzarNorte" Cost="152.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 7, Y = 15, Piso = 1.
+Ultima posicion visitada: 7, 12
+Energia consumida: 140.
+"/>
+<node Id="19" Action="AvanzarSur" Cost="128.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 7, Y = 9, Piso = 1.
+Ultima posicion visitada: 7, 12
+Energia consumida: 140.
+"/>
+<node Id="48" Action="AvanzarEste" Cost="196.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 9, Y = 15, Piso = 1.
+Ultima posicion visitada: 7, 15
+Energia consumida: 160.
+"/>
+<node Id="49" Action="AvanzarOeste" Cost="208.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 6, Y = 15, Piso = 1.
+Ultima posicion visitada: 7, 15
+Energia consumida: 150.
+"/>
+<node Id="74" Action="AvanzarEste" Cost="232.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 11, Y = 15, Piso = 1.
+Ultima posicion visitada: 9, 15
+Energia consumida: 180.
+"/>
+<node Id="87" Action="AvanzarOeste" Cost="272.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 4, Y = 15, Piso = 1.
+Ultima posicion visitada: 6, 15
+Energia consumida: 170.
+"/>
+<node Id="34" Action="AvanzarSur" Cost="156.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 7, Y = 5, Piso = 1.
+Ultima posicion visitada: 7, 9
+Energia consumida: 180.
+"/>
+<node Id="52" Action="AvanzarEste" Cost="164.0" Estado_Agente="Estado del Agente: 
+Posicion actual: X = 12, Y = 5, Piso = 1.
+Ultima posicion visitada: 7, 5
+Energia consumida: 230.
+"/>
+<edge source="0" target="1"/>
+<edge source="0" target="2"/>
+<edge source="1" target="5"/>
+<edge source="2" target="3"/>
+<edge source="2" target="4"/>
+<edge source="5" target="15"/>
+<edge source="15" target="38"/>
+<edge source="38" target="53"/>
+<edge source="53" target="75"/>
+<edge source="3" target="6"/>
+<edge source="3" target="7"/>
+<edge source="4" target="8"/>
+<edge source="6" target="9"/>
+<edge source="6" target="10"/>
+<edge source="7" target="11"/>
+<edge source="9" target="12"/>
+<edge source="9" target="13"/>
+<edge source="12" target="21"/>
+<edge source="12" target="22"/>
+<edge source="13" target="16"/>
+<edge source="21" target="41"/>
+<edge source="22" target="25"/>
+<edge source="41" target="62"/>
+<edge source="41" target="63"/>
+<edge source="62" target="79"/>
+<edge source="63" target="80"/>
+<edge source="63" target="81"/>
+<edge source="16" target="17"/>
+<edge source="17" target="23"/>
+<edge source="17" target="24"/>
+<edge source="23" target="28"/>
+<edge source="23" target="29"/>
+<edge source="24" target="26"/>
+<edge source="24" target="27"/>
+<edge source="28" target="42"/>
+<edge source="28" target="43"/>
+<edge source="42" target="61"/>
+<edge source="61" target="82"/>
+<edge source="61" target="83"/>
+<edge source="26" target="36"/>
+<edge source="26" target="37"/>
+<edge source="27" target="30"/>
+<edge source="36" target="56"/>
+<edge source="36" target="57"/>
+<edge source="37" target="46"/>
+<edge source="37" target="47"/>
+<edge source="56" target="76"/>
+<edge source="56" target="77"/>
+<edge source="57" target="66"/>
+<edge source="57" target="67"/>
+<edge source="66" target="84"/>
+<edge source="67" target="85"/>
+<edge source="67" target="86"/>
+<edge source="47" target="58"/>
+<edge source="58" target="70"/>
+<edge source="58" target="71"/>
+<edge source="30" target="33"/>
+<edge source="33" target="35"/>
+<edge source="35" target="39"/>
+<edge source="35" target="40"/>
+<edge source="40" target="44"/>
+<edge source="40" target="45"/>
+<edge source="45" target="54"/>
+<edge source="45" target="55"/>
+<edge source="54" target="64"/>
+<edge source="54" target="65"/>
+<edge source="64" target="73"/>
+<edge source="73" target="78"/>
+<edge source="78" target="90"/>
+<edge source="90" target="91"/>
+<edge source="90" target="92"/>
+<edge source="91" target="93"/>
+<edge source="91" target="94"/>
+<edge source="94" target="95"/>
+<edge source="94" target="96"/>
+<edge source="11" target="14"/>
+<edge source="14" target="20"/>
+<edge source="20" target="31"/>
+<edge source="20" target="32"/>
+<edge source="32" target="50"/>
+<edge source="32" target="51"/>
+<edge source="50" target="68"/>
+<edge source="50" target="69"/>
+<edge source="51" target="59"/>
+<edge source="51" target="60"/>
+<edge source="60" target="72"/>
+<edge source="72" target="88"/>
+<edge source="72" target="89"/>
+<edge source="8" target="18"/>
+<edge source="8" target="19"/>
+<edge source="18" target="48"/>
+<edge source="18" target="49"/>
+<edge source="19" target="34"/>
+<edge source="48" target="74"/>
+<edge source="49" target="87"/>
+<edge source="34" target="52"/>
+</tree>
