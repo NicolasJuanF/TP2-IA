@@ -13,6 +13,8 @@ import javax.swing.JTextField;
 import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.JButton;
 
+import utils.ArchivoOutput;
+
 
 import frsf.cidisi.faia.simulator.SearchBasedAgentSimulator;
 
@@ -50,9 +52,12 @@ public class Main extends JFrame{
 		String rta = simulator.start().get(0);
 		
 		System.out.println("Entrada: " + oracionAux);
+		ArchivoOutput.getInstance().agregarLinea("Entrada: " + oracionAux);
+		
 		System.out.println("Salida: " + rta);
-
-			
+		ArchivoOutput.getInstance().agregarLinea("Salida: " + rta);
+		
+		ArchivoOutput.getInstance().grabar();
 	}
 	
 	public void buscarRespuesta(){

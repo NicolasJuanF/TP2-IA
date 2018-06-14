@@ -3,6 +3,8 @@ package frsf.cidici.faia.simulator;
 import java.util.HashSet;
 import java.util.Set;
 
+import utils.ArchivoOutput;
+
 import frsf.cidisi.faia.agent.Perception;
 import frsf.cidisi.faia.state.AgentState;
 import frsf.ia.tp.chatbot.solver.productionsystem.PreProcessing;
@@ -28,6 +30,7 @@ public class EstadoAgente extends AgentState {
     public String toString() {
         String str = "Estado Agente: \n";
         str = str + "Palabras clave: " + claves;
+
         return str;
     }
 

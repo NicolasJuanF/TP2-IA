@@ -68,5 +68,22 @@ public class Regla{
 	public int getNovelty() {
 		return novelty;
 	}
+	
+	@Override
+	public String toString(){
+		String result = "[";
+		
+		for(String k : condiciones){
+			if(!k.equals(condiciones.get(condiciones.size() -1)))
+				result += k + ",";
+			else
+				result += k;
+		}
+		
+		result+= "] -> " + then;
+		
+		
+		return result;
+	}
     
 }

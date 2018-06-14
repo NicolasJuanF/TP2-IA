@@ -3,6 +3,8 @@ package frsf.cidici.faia.simulator;
 import java.util.ArrayList;
 import java.util.Vector;
 
+import utils.ArchivoOutput;
+
 
 import frsf.cidici.faia.solver.productionsystem.ProductionSystemAction;
 import frsf.cidisi.faia.agent.Action;
@@ -36,6 +38,13 @@ public class KnowledgeBasedAgentSimulator extends frsf.cidisi.faia.simulator.Sim
         System.out.println("--- " + this.getSimulatorName() + " ---");
         System.out.println("----------------------------------------------------");
         System.out.println();
+        
+		ArchivoOutput.getInstance().agregarLinea("----------------------------------------------------");
+		ArchivoOutput.getInstance().agregarLinea("--- " + this.getSimulatorName() + " ---");
+		ArchivoOutput.getInstance().agregarLinea("----------------------------------------------------");
+		ArchivoOutput.getInstance().agregarLinea("\n");
+
+        
 
         Perception perception;
         Action action = null;
@@ -49,6 +58,14 @@ public class KnowledgeBasedAgentSimulator extends frsf.cidisi.faia.simulator.Sim
         System.out.println("Percepcion: " + perception);
         System.out.println("Environment: " + environment);
         System.out.println(agent.getAgentState().toString());
+        
+        
+		ArchivoOutput.getInstance().agregarLinea("----------------------------------------------------");
+		ArchivoOutput.getInstance().agregarLinea("Sending perception to agent...");
+		ArchivoOutput.getInstance().agregarLinea("Percepcion: " + perception);
+		ArchivoOutput.getInstance().agregarLinea("Environment: " + environment);
+		ArchivoOutput.getInstance().agregarLinea(agent.getAgentState().toString());
+
         
         try {
 			action = agent.learn();

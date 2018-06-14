@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+import utils.ArchivoOutput;
+
 import frsf.cidisi.faia.agent.Action;
 import frsf.cidisi.faia.solver.Solve;
 import frsf.ia.tp.chatbot.solver.productionsystem.Problem;
@@ -29,7 +31,7 @@ public class ProductionSystem extends Solve{
 	public Action solve(Object[] params) throws Exception {
 
 		problem = (Problem) params[0]; //keywords detectadas
-		Regla r;
+		Regla regla;
 
 
 		
@@ -45,15 +47,20 @@ public class ProductionSystem extends Solve{
     	for(Criteria i : criteria){	
     		Criteria actualCriteria = i;
     		System.out.println("\nCriterio:" + actualCriteria.toString());
+    		ArchivoOutput.getInstance().agregarLinea("\nCriterio:" + actualCriteria.toString());
     		List<Regla> finalRules = actualCriteria.apply(activeRules);
     		if(finalRules.size()==0){
     			System.out.print("No hay reglas para aplicar");
+    			ArchivoOutput.getInstance().agregarLinea("No hay reglas para aplicar");
     		}
     		else{
-    			System.out.print("Reglas en Conflicto: ");
+    			System.out.println("Reglas en Conflicto: ");
+    			ArchivoOutput.getInstance().agregarLinea("Reglas en Conflicto: ");
 
-            	for(Regla j : finalRules){
-    				System.out.print("("+j.getId()+")");
+            	for(Regla r : finalRules){
+            		System.out.println(r.toString());
+            		ArchivoOutput.getInstance().agregarLinea(r.toString());
+            		
             	}
     			activeRules = finalRules;
     			if(activeRules.size()==1){
@@ -61,9 +68,9 @@ public class ProductionSystem extends Solve{
     			}
     		}
     	}
-    	r = activeRules.get(0);
-    	this.ejecutar(r);
-		return new ProductionSystemAction(r);
+    	regla = activeRules.get(0);
+    	this.ejecutar(regla);
+		return new ProductionSystemAction(regla);
 	}
 	
 	protected List<Regla> match(){
