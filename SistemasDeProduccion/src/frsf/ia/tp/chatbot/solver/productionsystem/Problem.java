@@ -2,11 +2,11 @@ package frsf.ia.tp.chatbot.solver.productionsystem;
 
 import java.util.Set;
 
-public class Problema {
+public class Problem {
 
     protected Set<String> palabrasClave;
 
-    public Problema() {
+    public Problem() {
     }
     
     public Set<String> getPalabrasClaves() {

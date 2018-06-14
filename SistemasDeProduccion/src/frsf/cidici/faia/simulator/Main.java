@@ -28,7 +28,7 @@ import java.awt.Font;
 
 public class Main extends JFrame{
 	
-	ChatbotAgent agent;
+	Agente agent;
     Ambiente environment;
     KnowledgeBasedAgentSimulator simulator;
 
@@ -43,62 +43,15 @@ public class Main extends JFrame{
 	public Main() {
 		setResizable(false);
 		
-		agent = new ChatbotAgent();
-	    environment = new Ambiente("COMO ESTAS");
+		agent = new Agente();
+	    environment = new Ambiente("como te llamas?");
 	    simulator = new KnowledgeBasedAgentSimulator(environment, agent);
 		String oracionAux = environment.getEnvironmentState().getOracion();
 		String rta = simulator.start().get(0);
 		
 		System.out.println("Entrada: " + oracionAux);
 		System.out.println("Salida: " + rta);
-		
-		/*getContentPane().setLayout(null);
-		//respuesta.setFont(new Font("Tahoma", Font.PLAIN, 11));
-		respuesta.setRows(1);
-		respuesta.setEditable(false);
-		//respuesta.setBounds(25, 25, 650, 300);
-		respuesta.setColumns(10);
-		//respuesta.setBackground(Color.WHITE);
-		
-		sp.setBounds(25, 25, 679, 384);
-		getContentPane().add(sp);
-		sp.setViewportView(respuesta);
-		
-		//mensaje.setBounds(25, 420, 569, 41);
-		getContentPane().add(mensaje);
-		mensaje.setColumns(10);
-		
-		enviar.setBounds(604, 420, 100, 41);
-		getContentPane().add(enviar);
-		
-		
-		enviar.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				buscarRespuesta();
-			}
-		});*/
-		
-		/*mensaje.addKeyListener(new KeyAdapter() {
-			@Override
-			public void keyReleased(KeyEvent e) {
-				mensaje.setText(mensaje.getText().toUpperCase());
-			}
-			public void keyPressed(KeyEvent e){
-				if(e.getKeyCode() == KeyEvent.VK_ENTER){
-					buscarRespuesta();
-				}
-			}
-			
-		});
-		
-		 addWindowListener(new WindowAdapter(){
-	            @Override
-	            public void windowClosing(WindowEvent e){
-	                System.out.println("Fin");
-	                System.exit(EXIT_ON_CLOSE);
-	            }
-		 });*/
-			this.setBounds(300,100,720,500);
+
 			
 	}
 	
@@ -114,12 +67,7 @@ public class Main extends JFrame{
 			String rta = simulator.start().get(0);
 			String oracionAux = environment.getEnvironmentState().getOracion();
 			
-			/*respuesta.setText(respuesta.getText()+time+"    Usted dice:\n      " + oracionAux);
-			respuesta.setText(respuesta.getText()+"\n");
-			respuesta.setText(respuesta.getText()+time+"    El Agente dice:\n      " + rta);
-			respuesta.setText(respuesta.getText()+"\n");
-			mensaje.setText("");*/
-			
+
 	
 			}
 		}

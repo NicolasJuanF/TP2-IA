@@ -4,7 +4,7 @@ import frsf.cidisi.faia.agent.Agent;
 import frsf.cidisi.faia.agent.Perception;
 import frsf.cidisi.faia.solver.Solve;
 import frsf.cidisi.faia.state.AgentState;
-import frsf.ia.tp.chatbot.solver.productionsystem.Problema;
+import frsf.ia.tp.chatbot.solver.productionsystem.Problem;
 
 public abstract class KnowledgeBasedAgent extends Agent {
 
@@ -30,13 +30,13 @@ public abstract class KnowledgeBasedAgent extends Agent {
     protected void setAgentState(AgentState agentState) {
         this.state = agentState;
     }
-    private Problema problema;
+    private Problem problema;
 
-    public Problema getProblema() {
+    public Problem getProblema() {
         return problema;
     }
 
-    public void setProblema(Problema problema) {
+    public void setProblema(Problem problema) {
         this.problema = problema;
     }
 }

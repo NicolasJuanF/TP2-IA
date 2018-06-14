@@ -15,22 +15,22 @@ import frsf.cidici.faia.solver.productionsystem.Random;
 import frsf.cidici.faia.solver.productionsystem.Specificity;
 import frsf.cidisi.faia.agent.Action;
 import frsf.cidisi.faia.agent.Perception;
-import frsf.ia.tp.chatbot.solver.productionsystem.CreaRegla;
-import frsf.ia.tp.chatbot.solver.productionsystem.Problema;
+import frsf.ia.tp.chatbot.solver.productionsystem.ReglasDB;
+import frsf.ia.tp.chatbot.solver.productionsystem.Problem;
 import frsf.ia.tp.chatbot.solver.productionsystem.Regla;
 
 
-public class ChatbotAgent extends KnowledgeBasedAgent{
+public class Agente extends KnowledgeBasedAgent{
 
-	EstadoChatbot agState;
+	EstadoAgente agState;
 	List<Criteria> listaCriterios;
 	List<Regla> listaReglas;
 	ProductionSystem ps;
-	Problema problema;
+	Problem problema;
 	
-	public ChatbotAgent(){
+	public Agente(){
 		
-		agState = new EstadoChatbot();
+		agState = new EstadoAgente();
         this.setAgentState(agState);
 		
 		listaCriterios = new ArrayList<Criteria>();
@@ -45,7 +45,7 @@ public class ChatbotAgent extends KnowledgeBasedAgent{
 		
 		ps = new ProductionSystem(listaCriterios, listaReglas);
 		
-		problema = new Problema();
+		problema = new Problem();
 	}
 
     @Override
@@ -63,7 +63,7 @@ public class ChatbotAgent extends KnowledgeBasedAgent{
     	try {
             selectedAction = ps.solve(new Object[]{problema});
         } catch (Exception ex) {
-            Logger.getLogger(ChatbotAgent.class.getName(), null).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Agente.class.getName(), null).log(Level.SEVERE, null, ex);
         }
 
         // Return the selected action
@@ -74,7 +74,7 @@ public class ChatbotAgent extends KnowledgeBasedAgent{
 	public void cargarReglas(){//ACA SE CARGAN LAS REGLAS 
 		/*Estructura de una regla:
 		Condiciones - Then - id - specificity - priority - novelty*/
-		listaReglas = new CreaRegla().crearReglas();
+		listaReglas = new ReglasDB().crearReglas();
 	}
 	
 	@Override

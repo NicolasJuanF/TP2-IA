@@ -21,14 +21,10 @@ public class EstadoAmbiente extends EnvironmentState {
 	
     @Override
     public String toString() {
-        String str = "Se escribió: "+this.oracion;
-        return str;
+        return this.oracion;
     }
 
 	public void update(AgentState ast, Regla rule) {
-		//ACA TIENE QUE ACTUALIZAR EL ESTADO DEL AMBIENTE, ES DECIR LA PANTALLA
-		//System.out.println(rule.toString());
-		System.out.println("Agente dice: "+rule.getThen());
 	}
 	public String getOracion() {
 		return oracion;

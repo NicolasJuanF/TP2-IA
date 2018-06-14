@@ -13,9 +13,9 @@ public class Ambiente extends Environment {
         return (EstadoAmbiente) super.getEnvironmentState();
     }
     @Override
-    public  ChatbotPerception getPercept() {
+    public  AgentePerception getPercept() {
     	// Create a new perception to return
-    	ChatbotPerception perception = new ChatbotPerception();
+    	AgentePerception perception = new AgentePerception();
     	
     	perception.setOracion(this.getEnvironmentState().getOracion());
     	

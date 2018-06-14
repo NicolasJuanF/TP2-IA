@@ -11,6 +11,7 @@ public class Regla{
 	private int priority;
 	private int novelty;
 	
+	
     public Regla (List<String> condiciones, String then, int id, int specificity, int priority, int novelty){
         //super();
         this.setCondiciones(condiciones);

@@ -29,10 +29,9 @@ public class KnowledgeBasedAgentSimulator extends frsf.cidisi.faia.simulator.Sim
 	@Override
 	public ArrayList<String> start() {
 		
-		ArrayList<String> mensaje = new ArrayList<String>();
+		ArrayList<String> resultado = new ArrayList<String>();
 		
 		ProductionSystemAction act;
-		//int contador = 0;
         System.out.println("----------------------------------------------------");
         System.out.println("--- " + this.getSimulatorName() + " ---");
         System.out.println("----------------------------------------------------");
@@ -40,59 +39,40 @@ public class KnowledgeBasedAgentSimulator extends frsf.cidisi.faia.simulator.Sim
 
         Perception perception;
         Action action = null;
-        //TODO Futuro: Esta hecho para el ChatBot pero debería incluirse el método learn en la clase agente.
-        ChatbotAgent agent;
-        agent = (ChatbotAgent) this.getAgents().firstElement();
+        Agente agent;
+        agent = (Agente) this.getAgents().firstElement();
 
-        //do {
         System.out.println("------------------------------------");
         System.out.println("Sending perception to agent...");
         perception = this.getPercept();
         agent.see(perception);
-        System.out.println("Oracion percibida: " + perception);
+        System.out.println("Percepcion: " + perception);
         System.out.println("Environment: " + environment);
         System.out.println(agent.getAgentState().toString());
         
-        //System.out.println("Asking the agent that start the learning process...");
         try {
 			action = agent.learn();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 
-        if (action == null){
-        	//System.out.println("\nRule to execute: None");
-        	mensaje.add("NO ENTENDÍ LO QUE ME DIJISTE");
-        }
+        if (action == null)
+        	resultado.add("No hay acciones disponibles");
         else{
         	act = (ProductionSystemAction) action;
-        	//System.out.println("\nRule to execute: " + act.getRegla().getId());
-        	mensaje.add(act.getRegla().getThen().toString());
+        	resultado.add(act.getRegla().getThen().toString());
         }
         System.out.println();
 
         this.ruleReturned(agent, action);
-        //contador ++;
-        //EL WHILE DEBE SER HASTA QUE SALGA Y NO HASTA QUE TERMINE DE "APRENDER"
-        //} while (!this.finishForRule(action) && !this.finishForAgentState(agent));
-		//} while(contador<10);
-        // Check what happened.
-        /*if (this.finishForRule(action)) {
-            System.out.println("The agent has executed the finish rule.");
-        } else {
-            System.out.println("The agent has finished learning!");
-        }*/
-        // Leave a blank line
-        System.out.println();
-
-        // This call can be moved to the Simulator class
+      
         this.environment.close();
 
         // Launch simulationFinished event
         SimulatorEventNotifier.runEventHandlers(EventType.SimulationFinished, null);
         
 		//return null;
-		return mensaje;
+		return resultado;
 		
 	}
 
@@ -108,7 +88,7 @@ public class KnowledgeBasedAgentSimulator extends frsf.cidisi.faia.simulator.Sim
 		}
 		else{
 			ProductionSystemAction act = (ProductionSystemAction) action;		
-			return (((String) act.getRegla().getThen()).equalsIgnoreCase("chau")||(((String) act.getRegla().getThen()).equalsIgnoreCase("hasta luego"))||((String) act.getRegla().getThen()).equalsIgnoreCase("nos vemos"));  	
+			return (((String) act.getRegla().getThen()).equalsIgnoreCase("APAGAR"));  	
 		}
 	}	
 	public String getSimulatorName() {
@@ -123,7 +103,7 @@ public class KnowledgeBasedAgentSimulator extends frsf.cidisi.faia.simulator.Sim
     
     protected void updateState(Action action) {
     	//TODO Futuro: Esta hecho para el ChatBot pero debería incluirse en otro lugar el metodo requerido.
-        this.getEnvironment().updateState(((ChatbotAgent) agents.elementAt(0)).getAgentState(), action);
+        this.getEnvironment().updateState(((Agente) agents.elementAt(0)).getAgentState(), action);
     }
     
 }

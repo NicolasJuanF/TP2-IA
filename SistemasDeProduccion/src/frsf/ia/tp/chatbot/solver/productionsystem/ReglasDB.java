@@ -4,16 +4,16 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class CreaRegla {
+public class ReglasDB {
 	private List<Regla> listaReglas;
 	
-	public CreaRegla(){
+	public ReglasDB(){
 		listaReglas = new ArrayList<Regla>();
 	}
 	public List<Regla> crearReglas(){
 				
-		listaReglas.add(new Regla(Arrays.asList("HOLA", "COMO", "ESTAR"), "HOLA, ¿COMO VA?", 1, 1, 1, 1));
-		listaReglas.add(new Regla(Arrays.asList("HOLA", "COMO", "ESTAR"), "HOLA", 2, 1, 1, 1));
+		listaReglas.add(new Regla(Arrays.asList("PREGUNTA", "NOMBRE"), "SUGERIR NO RESPONDER", 1, 1, 1, 1));
+		/*listaReglas.add(new Regla(Arrays.asList("HOLA", "COMO", "ESTAR"), "HOLA", 2, 1, 1, 1));
 		listaReglas.add(new Regla(Arrays.asList("COMO", "ESTAR"), "TODO BIEN, ¿VOS?", 48, 1, 1, 1));
 		listaReglas.add(new Regla(Arrays.asList("COMO", "ESTAR"), "ACA ANDAMOS, TRABAJANDO COMO SE DEBE :)", 49, 1, 1, 1));
 		listaReglas.add(new Regla(Arrays.asList("BIEN"), "ME ALEGRO ENTONCES!)", 50, 1, 1, 1));
@@ -71,7 +71,7 @@ public class CreaRegla {
 		listaReglas.add(new Regla(Arrays.asList("HABER", "ASCENSOR"), "SI SI", 44, 1, 1, 1));
 		listaReglas.add(new Regla(Arrays.asList("HABER", "ASCENSOR"), "SI, PERO ESTÁ ROTO", 45, 1, 1, 1));
 		listaReglas.add(new Regla(Arrays.asList("HABER", "ASCENSOR","FACULTAD"), "SI SI", 53, 1, 1, 1));
-		listaReglas.add(new Regla(Arrays.asList("HABER", "ASCENSOR","FACULTAD"), "SI, PERO ESTÁ ROTO", 54, 1, 1, 1));
+		listaReglas.add(new Regla(Arrays.asList("HABER", "ASCENSOR","FACULTAD"), "SI, PERO ESTÁ ROTO", 54, 1, 1, 1));*/
 		
 		
 		

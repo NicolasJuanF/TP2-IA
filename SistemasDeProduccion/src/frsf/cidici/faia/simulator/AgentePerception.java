@@ -4,15 +4,15 @@ import frsf.cidisi.faia.agent.Agent;
 import frsf.cidisi.faia.agent.Perception;
 import frsf.cidisi.faia.environment.Environment;
 
-public class ChatbotPerception extends Perception {
+public class AgentePerception extends Perception {
 
 	private String oracion;
 	
-    public  ChatbotPerception() {
+    public  AgentePerception() {
     	
     }
 
-    public ChatbotPerception(Agent agent, Environment environment) {
+    public AgentePerception(Agent agent, Environment environment) {
         super(agent, environment);
     }
 
