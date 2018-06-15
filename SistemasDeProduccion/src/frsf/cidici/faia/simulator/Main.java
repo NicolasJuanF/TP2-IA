@@ -85,15 +85,20 @@ public void display() {
 	    environment = new Ambiente(""); //ambiente inicial no tiene nada
 	    simulator = new KnowledgeBasedAgentSimulator(environment, agent);
 		String oracionAux = environment.getEnvironmentState().getOracion();
-		/*String rta = simulator.start().get(0);
 		
-		System.out.println("Entrada: " + oracionAux);
-		ArchivoOutput.getInstance().agregarLinea("Entrada: " + oracionAux);
 		
-		System.out.println("Salida: " + rta);
-		ArchivoOutput.getInstance().agregarLinea("Salida: " + rta);
 		
-		ArchivoOutput.getInstance().grabar();*/
+		newFrame.addWindowListener(new java.awt.event.WindowAdapter() {
+		    @Override
+		    public void windowClosing(java.awt.event.WindowEvent e) {
+		    	ArchivoOutput.getInstance().grabar();
+		        //MainPage m = new MainPage();
+		        //m.setVisible(true);
+		        e.getWindow().dispose();
+		        System.out.println("JFrame Closed!");
+		    }
+		});
+
     }
 
     class sendMessageButtonListener implements ActionListener {
@@ -135,7 +140,6 @@ public String buscarRespuesta(){
 		ArchivoOutput.getInstance().agregarLinea("Entrada: " + oracionAux);
 		ArchivoOutput.getInstance().agregarLinea("Salida: " + rta);
 		
-		ArchivoOutput.getInstance().grabar();
 		}
 	return rta;
 }
@@ -145,6 +149,7 @@ public static void main(String[] args) throws ClassNotFoundException, Instantiat
 			try {
 				Main frame = new Main();
 				frame.display();
+				ArchivoOutput.getInstance().grabar();
 			} catch (Exception e) {
 				e.printStackTrace();
 			}

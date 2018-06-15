@@ -5,13 +5,35 @@
 
 ----------------------------------------------------
 Sending perception to agent...
-Percepcion: donde esta el dinero
-Environment: donde esta el dinero
+Percepcion: test
+Environment: test
 Estado Agente: 
-Palabras clave: [DINERO, PREGUNTA]
+Palabras clave: []
+Entrada: test
+Salida: No hay acciones disponibles
+----------------------------------------------------
+--- Knowledge Based Simulator ---
+----------------------------------------------------
 
-Criterio:No duplication
-Reglas en Conflicto: 
-id:27 -> [PREGUNTA,DINERO] -> OBLIGAR NO RESPONDER, LLAMAR PADRES , LLAMAR POLICÍA
-Entrada: donde esta el dinero
-Salida: OBLIGAR NO RESPONDER, LLAMAR PADRES , LLAMAR POLICÍA
+
+----------------------------------------------------
+Sending perception to agent...
+Percepcion: otro test
+Environment: otro test
+Estado Agente: 
+Palabras clave: []
+Entrada: otro test
+Salida: No hay acciones disponibles
+----------------------------------------------------
+--- Knowledge Based Simulator ---
+----------------------------------------------------
+
+
+----------------------------------------------------
+Sending perception to agent...
+Percepcion: test 3
+Environment: test 3
+Estado Agente: 
+Palabras clave: []
+Entrada: test 3
+Salida: No hay acciones disponibles

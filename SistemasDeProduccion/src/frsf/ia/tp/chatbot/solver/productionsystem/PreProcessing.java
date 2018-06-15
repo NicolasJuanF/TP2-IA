@@ -107,6 +107,10 @@ public class PreProcessing {
 					|| siguiente.equals("CUANDO")
 					|| siguiente.equals("QUIEN")
 					|| siguiente.equals("QUIENES")
+					|| siguiente.equals("CUANTO")
+					|| siguiente.equals("CUANTA")
+					|| siguiente.equals("CUANTAS")
+					|| siguiente.equals("CUANTOS")
 					){
 				tokensSet.add("PREGUNTA");
 			}
@@ -198,6 +202,14 @@ public class PreProcessing {
 					|| siguiente.equals("IR")
 					){
 				tokensSet.add("CASA");
+			}
+			if(siguiente.equals("TENER")
+					|| siguiente.equals("TENES")
+					|| siguiente.equals("TIENES")
+					|| siguiente.equals("TIENEN")
+					|| siguiente.equals("TIENE")
+					){
+				tokensSet.add("TENER");
 			}
 			if(siguiente.equals("CIUDAD")
 					|| siguiente.equals("BARRIO")
