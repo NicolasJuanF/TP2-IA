@@ -3,8 +3,9 @@ package frsf.cidici.faia.simulator;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
+import java.util.logging.Logger;
 
-import com.sun.istack.internal.logging.Logger;
+//import com.sun.istack.internal.logging.Logger;
 
 import frsf.cidici.faia.solver.productionsystem.Criteria;
 import frsf.cidici.faia.solver.productionsystem.NoDuplication;
@@ -37,8 +38,8 @@ public class Agente extends KnowledgeBasedAgent{
 		listaCriterios.add(new NoDuplication());
 		listaCriterios.add(new Specificity());
 		listaCriterios.add(new Novelty());
-		listaCriterios.add(new Random());
 		listaCriterios.add(new Priority());
+		listaCriterios.add(new Random());
 		
 		listaReglas = new ArrayList<Regla>();
 		cargarReglas();

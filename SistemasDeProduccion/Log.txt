@@ -5,13 +5,13 @@
 
 ----------------------------------------------------
 Sending perception to agent...
-Percepcion: Donde guardan el dinero?
-Environment: Donde guardan el dinero?
+Percepcion: donde esta el dinero
+Environment: donde esta el dinero
 Estado Agente: 
 Palabras clave: [DINERO, PREGUNTA]
 
 Criterio:No duplication
 Reglas en Conflicto: 
-id:26[PREGUNTA,DINERO] -> SUGERIR NO RESPONDER, LLAMAR PADRES
-Entrada: Donde guardan el dinero?
-Salida: SUGERIR NO RESPONDER, LLAMAR PADRES
+id:27 -> [PREGUNTA,DINERO] -> OBLIGAR NO RESPONDER, LLAMAR PADRES , LLAMAR POLICÍA
+Entrada: donde esta el dinero
+Salida: OBLIGAR NO RESPONDER, LLAMAR PADRES , LLAMAR POLICÍA

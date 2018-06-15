@@ -52,16 +52,16 @@ public class ReglasDB {
 		
 		
 		//DINERO
-		listaReglas.add(new Regla(Arrays.asList("PREGUNTA" ,"TENER" , "DINERO" , "FAMILIA"), "NO RESPONDER, LLAMAR PADRES , LLAMAR POLICIA", id_incremental, 4, 4, 1));				id_incremental++;
-		listaReglas.add(new Regla(Arrays.asList("PREGUNTA" ,"TENER" , "JOYERIA"), "NO RESPONDER, LLAMAR PADRES , LLAMAR POLICIA", id_incremental, 3, 4, 1));							id_incremental++;
+		listaReglas.add(new Regla(Arrays.asList("PREGUNTA" ,"TENER" , "DINERO" , "FAMILIA"), "NO RESPONDER, LLAMAR PADRES , LLAMAR POLICIA", id_incremental, 4, 4, 1));		id_incremental++;
+		listaReglas.add(new Regla(Arrays.asList("PREGUNTA" ,"TENER" , "JOYERIA"), "NO RESPONDER, LLAMAR PADRES , LLAMAR POLICIA", id_incremental, 3, 4, 1));				id_incremental++;
 		listaReglas.add(new Regla(Arrays.asList("PREGUNTA" , "JOYERIA"), "NO RESPONDER, LLAMAR PADRES , LLAMAR POLICIA", id_incremental, 2, 4, 1));							id_incremental++;
-		listaReglas.add(new Regla(Arrays.asList("PREGUNTA" ,"DINERO"), "SUGERIR NO RESPONDER, LLAMAR PADRES", id_incremental, 2, 3, 1));											id_incremental++;
-		
+		listaReglas.add(new Regla(Arrays.asList("PREGUNTA" ,"DINERO"), "SUGERIR NO RESPONDER, LLAMAR PADRES", id_incremental, 2, 4, 1));									id_incremental++;
+		listaReglas.add(new Regla(Arrays.asList("PREGUNTA" ,"DINERO"), "OBLIGAR NO RESPONDER, LLAMAR PADRES , LLAMAR POLICÍA", id_incremental, 2, 3, 1));									id_incremental++;
 		
 		//TRABAJO
 		listaReglas.add(new Regla(Arrays.asList("PREGUNTA" ,"TENER" , "TRABAJO"), "SUGERIR NO RESPONDER, LLAMAR PADRES", id_incremental, 3, 3, 1));					id_incremental++;
 		listaReglas.add(new Regla(Arrays.asList("PREGUNTA" ,"TENER" , "TRABAJO" , "FAMILIA"), "SUGERIR NO RESPONDER, LLAMAR PADRES", id_incremental, 4, 3, 1));		id_incremental++;
-		listaReglas.add(new Regla(Arrays.asList("TRABAJO" ,"FAMILIA"), "SUGERIR NO RESPONDER", id_incremental, 2, 2, 1));							id_incremental++;
+		listaReglas.add(new Regla(Arrays.asList("TRABAJO" ,"FAMILIA"), "SUGERIR NO RESPONDER", id_incremental, 2, 2, 1));											id_incremental++;
 		
 		//CIUDAD
 		listaReglas.add(new Regla(Arrays.asList("PREGUNTA" ,"CIUDAD"), "SUGERIR NO RESPONDER, LLAMAR PADRES", id_incremental, 3, 3, 1));							id_incremental++;
