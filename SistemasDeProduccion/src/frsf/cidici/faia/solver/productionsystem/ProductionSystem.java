@@ -63,6 +63,7 @@ public class ProductionSystem extends Solve{
             		
             	}
     			activeRules = finalRules;
+    			
     			if(activeRules.size()==1){
     				break;
     			}

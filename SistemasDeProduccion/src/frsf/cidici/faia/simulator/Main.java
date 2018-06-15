@@ -46,7 +46,7 @@ public class Main extends JFrame{
 		setResizable(false);
 		
 		agent = new Agente();
-	    environment = new Ambiente("como te llamas?");
+	    environment = new Ambiente("Donde guardan el dinero?");
 	    simulator = new KnowledgeBasedAgentSimulator(environment, agent);
 		String oracionAux = environment.getEnvironmentState().getOracion();
 		String rta = simulator.start().get(0);
@@ -71,9 +71,6 @@ public class Main extends JFrame{
 			
 			String rta = simulator.start().get(0);
 			String oracionAux = environment.getEnvironmentState().getOracion();
-			
-
-	
 			}
 		}
 	

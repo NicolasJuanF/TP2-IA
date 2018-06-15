@@ -71,7 +71,7 @@ public class Regla{
 	
 	@Override
 	public String toString(){
-		String result = "[";
+		String result = "id:"+ id + " -> [";
 		
 		for(String k : condiciones){
 			if(!k.equals(condiciones.get(condiciones.size() -1)))

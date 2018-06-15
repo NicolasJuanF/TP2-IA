@@ -1,0 +1,17 @@
+----------------------------------------------------
+--- Knowledge Based Simulator ---
+----------------------------------------------------
+
+
+----------------------------------------------------
+Sending perception to agent...
+Percepcion: Donde guardan el dinero?
+Environment: Donde guardan el dinero?
+Estado Agente: 
+Palabras clave: [DINERO, PREGUNTA]
+
+Criterio:No duplication
+Reglas en Conflicto: 
+id:26[PREGUNTA,DINERO] -> SUGERIR NO RESPONDER, LLAMAR PADRES
+Entrada: Donde guardan el dinero?
+Salida: SUGERIR NO RESPONDER, LLAMAR PADRES
