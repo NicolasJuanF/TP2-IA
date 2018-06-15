@@ -1,0 +1,13 @@
+----------------------------------------------------
+--- Knowledge Based Simulator ---
+----------------------------------------------------
+
+
+----------------------------------------------------
+Sending perception to agent...
+Percepcion: 
+Environment: 
+Estado Agente: 
+Palabras clave: []
+Entrada: 
+Salida: No hay acciones disponibles
