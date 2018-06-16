@@ -187,6 +187,9 @@ public class PreProcessing {
 					|| siguiente.equals("DIRECCION")
 					|| siguiente.equals("CALLE")
 					|| siguiente.equals("PROFESION")
+					|| siguiente.equals("VIVIR")
+					|| siguiente.equals("VIVES")
+					|| siguiente.equals("VIVEN")
 					){
 				tokensSet.add("CASA");
 			}
