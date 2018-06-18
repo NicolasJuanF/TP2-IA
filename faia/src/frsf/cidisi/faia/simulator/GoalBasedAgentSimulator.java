@@ -48,7 +48,7 @@ public abstract class GoalBasedAgentSimulator extends Simulator {
     }
 
     @Override
-    public ArrayList<String> start() {
+    public String start() {
 
         System.out.println("----------------------------------------------------");
         System.out.println("--- " + this.getSimulatorName() + " ---");
@@ -117,7 +117,7 @@ public abstract class GoalBasedAgentSimulator extends Simulator {
 
         // Launch simulationFinished event
         SimulatorEventNotifier.runEventHandlers(EventType.SimulationFinished, null);
-        return arreglo;
+        return arreglo.get(0);
     }
 
     /**

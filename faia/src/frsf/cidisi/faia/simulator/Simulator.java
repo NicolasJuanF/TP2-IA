@@ -61,5 +61,5 @@ public abstract class Simulator {
     public void setEnvironment(Environment evm) {
     }
 
-    public abstract ArrayList<String> start();
+    public abstract String start();
 }

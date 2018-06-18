@@ -5,13 +5,28 @@
 
 ----------------------------------------------------
 Sending perception to agent...
-Percepcion: cual es tu nombre?
-Environment: cual es tu nombre?
+Percepcion: donde esta el dinero
+Environment: donde esta el dinero
 Estado Agente: 
-Palabras clave: [NOMBRE, PREGUNTA]
+Palabras clave: [DINERO, PREGUNTA]
 
 Criterio:No duplication
 Reglas en Conflicto: 
-id:5 -> [PREGUNTA,NOMBRE] -> SUGERIR NO RESPONDER
-Entrada: cual es tu nombre?
-Salida: SUGERIR NO RESPONDER
+id:35 -> [PREGUNTA,DINERO] -> OBLIGAR NO RESPONDER, GRABAR CONVERSACION
+id:36 -> [PREGUNTA,DINERO] -> OBLIGAR NO RESPONDER, LLAMAR PADRES , LLAMAR POLICÍA
+
+Criterio:Specificity
+Reglas en Conflicto: 
+id:35 -> [PREGUNTA,DINERO] -> OBLIGAR NO RESPONDER, GRABAR CONVERSACION
+id:36 -> [PREGUNTA,DINERO] -> OBLIGAR NO RESPONDER, LLAMAR PADRES , LLAMAR POLICÍA
+
+Criterio:Novelty
+Reglas en Conflicto: 
+id:35 -> [PREGUNTA,DINERO] -> OBLIGAR NO RESPONDER, GRABAR CONVERSACION
+id:36 -> [PREGUNTA,DINERO] -> OBLIGAR NO RESPONDER, LLAMAR PADRES , LLAMAR POLICÍA
+
+Criterio:Priority
+Reglas en Conflicto: 
+id:35 -> [PREGUNTA,DINERO] -> OBLIGAR NO RESPONDER, GRABAR CONVERSACION
+Entrada: donde esta el dinero
+Salida: OBLIGAR NO RESPONDER, GRABAR CONVERSACION

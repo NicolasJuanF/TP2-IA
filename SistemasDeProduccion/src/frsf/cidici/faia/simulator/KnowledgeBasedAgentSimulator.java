@@ -29,7 +29,7 @@ public class KnowledgeBasedAgentSimulator extends frsf.cidisi.faia.simulator.Sim
     }
 	
 	@Override
-	public ArrayList<String> start() {
+	public String start() {
 		
 		ArrayList<String> resultado = new ArrayList<String>();
 		
@@ -89,7 +89,7 @@ public class KnowledgeBasedAgentSimulator extends frsf.cidisi.faia.simulator.Sim
         SimulatorEventNotifier.runEventHandlers(EventType.SimulationFinished, null);
         
 		//return null;
-		return resultado;
+		return resultado.get(0);
 		
 	}
 

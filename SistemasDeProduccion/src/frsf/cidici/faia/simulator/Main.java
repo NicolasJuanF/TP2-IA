@@ -135,7 +135,7 @@ public String buscarRespuesta(){
 		String time = hora+":"+minutos+":"+segundos;
 		environment.getEnvironmentState().setOracion(messageBox.getText());
 		
-		rta = simulator.start().get(0);
+		rta = simulator.start();
 		
 		
 		String oracionAux = environment.getEnvironmentState().getOracion();
