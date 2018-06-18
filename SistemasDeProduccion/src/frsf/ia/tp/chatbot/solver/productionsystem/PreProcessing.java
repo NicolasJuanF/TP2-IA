@@ -82,8 +82,8 @@ public class PreProcessing {
 			}
 			if(siguiente.equals("NACI")
 					|| siguiente.equals("NACISTE")
-					|| siguiente.equals("CUMPLEAÑOS")
-					|| siguiente.equals("AÑOS")
+					|| siguiente.equals("CUMPLEANOS")
+					|| siguiente.equals("ANOS")
 					|| siguiente.equals("EDAD")
 					
 					){
@@ -98,6 +98,10 @@ public class PreProcessing {
 			if(siguiente.equals("NACI")
 					|| siguiente.equals("NACISTE")
 					|| siguiente.equals("NACIMIENTO")
+					|| siguiente.equals("NACIO")
+					|| siguiente.equals("NACE")
+					
+					
 					){
 				tokensSet.add("NACIMIENTO");
 			}
@@ -111,6 +115,8 @@ public class PreProcessing {
 					|| siguiente.equals("CUANTA")
 					|| siguiente.equals("CUANTAS")
 					|| siguiente.equals("CUANTOS")
+					|| siguiente.equals("CUAL")
+					
 					){
 				tokensSet.add("PREGUNTA");
 			}
@@ -204,7 +210,7 @@ public class PreProcessing {
 					|| siguiente.equals("VACACIONES")
 					|| siguiente.equals("IR")
 					){
-				tokensSet.add("CASA");
+				tokensSet.add("VIAJE");
 			}
 			if(siguiente.equals("TENER")
 					|| siguiente.equals("TENES")

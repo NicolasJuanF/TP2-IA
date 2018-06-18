@@ -23,6 +23,8 @@ public class ReglasDB {
 		listaReglas.add(new Regla(Arrays.asList("PREGUNTA", "NOMBRE"), "SUGERIR NO RESPONDER", id_incremental, 2, 2, 1));											id_incremental++; 
 		listaReglas.add(new Regla(Arrays.asList("PREGUNTA", "NOMBRE" , "FAMILIA"), "OBLIGAR NO RESPONDER", id_incremental, 3, 3, 1));								id_incremental++;
 		listaReglas.add(new Regla(Arrays.asList("PREGUNTA", "NOMBRE" , "AMISTAD"), "SUGERIR NO RESPONDER", id_incremental, 3, 2, 1));								id_incremental++;
+		listaReglas.add(new Regla(Arrays.asList("PREGUNTA", "NOMBRE" , "PROFESOR"), "SUGERIR NO RESPONDER", id_incremental, 3, 2, 1));								id_incremental++;
+		
 		
 		//EDAD
 		listaReglas.add(new Regla(Arrays.asList("EDAD"), "CUIDADO", id_incremental, 1, 1, 1));																		id_incremental++;
@@ -75,6 +77,7 @@ public class ReglasDB {
 		listaReglas.add(new Regla(Arrays.asList("TRABAJO" ,"FAMILIA"), "SUGERIR NO RESPONDER", id_incremental, 2, 2, 1));											id_incremental++;
 		listaReglas.add(new Regla(Arrays.asList("PREGUNTA" ,"TENER" , "TRABAJO"), "SUGERIR NO RESPONDER, LLAMAR PADRES", id_incremental, 3, 3, 1));					id_incremental++;
 		listaReglas.add(new Regla(Arrays.asList("PREGUNTA" ,"TENER" , "TRABAJO" , "FAMILIA"), "SUGERIR NO RESPONDER", id_incremental, 4, 2, 1));					id_incremental++;
+		listaReglas.add(new Regla(Arrays.asList("PREGUNTA" ,"TRABAJO" , "FAMILIA"), "SUGERIR NO RESPONDER, LLAMAR PADRES", id_incremental, 4, 2, 1));					id_incremental++;
 		listaReglas.add(new Regla(Arrays.asList("PREGUNTA" ,"TENER" , "TRABAJO" , "FAMILIA"), "OBLIGAR NO RESPONDER, NOTIFICAR PADRES", id_incremental, 4, 3, 1));		id_incremental++;
 		
 		//CIUDAD

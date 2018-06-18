@@ -5,59 +5,13 @@
 
 ----------------------------------------------------
 Sending perception to agent...
-Percepcion: DONDE TENER DINERO ? COMO TE LLAMAS ?  
-Environment: DONDE TENER DINERO ? COMO TE LLAMAS ?  
+Percepcion: cual es tu nombre?
+Environment: cual es tu nombre?
 Estado Agente: 
-Palabras clave: [NOMBRE, DINERO, TENER, PREGUNTA]
-Entrada: DONDE TENER DINERO ? COMO TE LLAMAS ?  
-Salida: No hay acciones disponibles
-----------------------------------------------------
---- Knowledge Based Simulator ---
-----------------------------------------------------
-
-
-----------------------------------------------------
-Sending perception to agent...
-Percepcion: DONDE TENER DINERO ?
-Environment: DONDE TENER DINERO ?
-Estado Agente: 
-Palabras clave: [DINERO, TENER, PREGUNTA]
-Entrada: DONDE TENER DINERO ?
-Salida: No hay acciones disponibles
-----------------------------------------------------
---- Knowledge Based Simulator ---
-----------------------------------------------------
-
-
-----------------------------------------------------
-Sending perception to agent...
-Percepcion: DONDE GUARDA EL DINERO TU PADRE?
-Environment: DONDE GUARDA EL DINERO TU PADRE?
-Estado Agente: 
-Palabras clave: [DINERO, FAMILIA, PREGUNTA]
+Palabras clave: [NOMBRE, PREGUNTA]
 
 Criterio:No duplication
 Reglas en Conflicto: 
-id:37 -> [PREGUNTA,DINERO,FAMILIA] -> OBLIGAR NO RESPONDER, LLAMAR PADRES , LLAMAR POLICIA
-id:38 -> [PREGUNTA,DINERO,FAMILIA] -> GRABAR CONVERSACION, LLAMAR POLICIA
-
-Criterio:Specificity
-Reglas en Conflicto: 
-id:37 -> [PREGUNTA,DINERO,FAMILIA] -> OBLIGAR NO RESPONDER, LLAMAR PADRES , LLAMAR POLICIA
-id:38 -> [PREGUNTA,DINERO,FAMILIA] -> GRABAR CONVERSACION, LLAMAR POLICIA
-
-Criterio:Novelty
-Reglas en Conflicto: 
-id:37 -> [PREGUNTA,DINERO,FAMILIA] -> OBLIGAR NO RESPONDER, LLAMAR PADRES , LLAMAR POLICIA
-id:38 -> [PREGUNTA,DINERO,FAMILIA] -> GRABAR CONVERSACION, LLAMAR POLICIA
-
-Criterio:Priority
-Reglas en Conflicto: 
-id:37 -> [PREGUNTA,DINERO,FAMILIA] -> OBLIGAR NO RESPONDER, LLAMAR PADRES , LLAMAR POLICIA
-id:38 -> [PREGUNTA,DINERO,FAMILIA] -> GRABAR CONVERSACION, LLAMAR POLICIA
-
-Criterio:Random
-Reglas en Conflicto: 
-id:38 -> [PREGUNTA,DINERO,FAMILIA] -> GRABAR CONVERSACION, LLAMAR POLICIA
-Entrada: DONDE GUARDA EL DINERO TU PADRE?
-Salida: GRABAR CONVERSACION, LLAMAR POLICIA
+id:5 -> [PREGUNTA,NOMBRE] -> SUGERIR NO RESPONDER
+Entrada: cual es tu nombre?
+Salida: SUGERIR NO RESPONDER

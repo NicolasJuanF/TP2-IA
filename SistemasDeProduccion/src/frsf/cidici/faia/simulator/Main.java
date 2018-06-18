@@ -56,6 +56,7 @@ public void display() {
         chatBox.setEditable(false);
         chatBox.setFont(new Font("Serif", Font.PLAIN, 15));
         chatBox.setLineWrap(true);
+        chatBox.setAutoscrolls(true);
 
         mainPanel.add(new JScrollPane(chatBox), BorderLayout.CENTER);
 
@@ -79,7 +80,7 @@ public void display() {
 
         newFrame.add(mainPanel);
         newFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        newFrame.setSize(470, 300);
+        newFrame.setSize(720, 480);
         newFrame.setVisible(true);
         agent = new Agente();
 	    environment = new Ambiente(""); //ambiente inicial no tiene nada
@@ -117,8 +118,10 @@ public void display() {
                 messageBox.setText("");
                             }
             messageBox.requestFocusInWindow();
+            
         }
     }
+    
 
     String  username;
 
